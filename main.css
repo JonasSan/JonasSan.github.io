@@ -1,0 +1,486 @@
+.body {
+  background-color: #c4e3e3;
+}
+
+.navbar {
+  background: #e9891e;
+}
+.nav-link,
+.navbar-brand {
+  color: #f4f4f4;
+  cursor: pointer;
+}
+.nav-link {
+  margin-right: 1em !important;
+}
+.nav-link:hover {
+  background: #f4f4f4;
+  color: #e9891e;
+}
+.navbar-collapse {
+  justify-content: flex-end;
+}
+.navbar-toggler {
+  background: #fff !important;
+}
+@import url("https://fonts.googleapis.com/css?family=Raleway");
+
+html,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a {
+  font-family: "Raleway";
+}
+
+.about {
+  margin: 4em 0;
+  padding: 1em;
+  position: relative;
+}
+.about h1 {
+  color: #e9891e;
+  margin: 2em;
+}
+.about img {
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+}
+.about span {
+  display: block;
+  color: #888;
+  position: absolute;
+  left: 115px;
+}
+.about .desc {
+  padding: 2em;
+  border-left: 4px solid #10828c;
+}
+.about .desc h3 {
+  color: #10828c;
+}
+.about .desc p {
+  line-height: 2;
+  color: #888;
+}
+.description {
+  position: absolute;
+  top: 30%;
+  margin: auto;
+  padding: 2em;
+}
+.description h1 {
+  color: #e9891e;
+}
+.description p {
+  color: #666;
+  font-size: 20px;
+  width: 50%;
+  line-height: 1.5;
+}
+.description button {
+  border: 1px solid #e9891e;
+  background: #e9891e;
+  color: #fff;
+}
+
+.bg-dark {
+  background-color: #343a40 !important;
+}
+.bg-primary {
+  background-color: #007bff !important;
+}
+
+.header {
+  background-image: url("pics/background.jpg");
+
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
+.overlay {
+  position: absolute;
+  min-height: 100%;
+  min-width: 100%;
+  left: 0;
+  top: 0;
+  background: rgba(244, 244, 244, 0.79);
+}
+
+.about {
+  margin: 4em 0;
+  padding: 1em;
+  position: relative;
+}
+.about h1 {
+  color: #e9891e;
+  margin: 2em;
+}
+.about img {
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+}
+.about span {
+  display: block;
+  color: #888;
+  position: absolute;
+  left: 115px;
+}
+.about .desc {
+  padding: 2em;
+  border-left: 4px solid #10828c;
+}
+.about .desc h3 {
+  color: #10828c;
+}
+.about .desc p {
+  line-height: 2;
+  color: #888;
+}
+/*Portfolio*/
+.portfolio {
+  margin: 4em 0;
+  position: relative;
+}
+.portfolio h1 {
+  color: #e9891e;
+  margin: 2em;
+}
+.portfolio img {
+  height: 80%;
+  width: 100%;
+  margin: 1em;
+}
+
+.blog {
+  margin: 4em 0;
+  position: relative;
+}
+.blog h1 {
+  color: #e9891e;
+  margin: 2em;
+}
+.blog .card {
+  box-shadow: 0 0 20px #ccc;
+}
+.blog .card img {
+  width: 100%;
+  height: 12em;
+}
+.blog .card-title {
+  color: #e9891e;
+}
+.blog .card-body {
+  padding: 1em;
+}
+
+.team {
+  margin: 4em 0;
+  position: relative;
+}
+.team h1 {
+  color: #e9891e;
+  margin: 2em;
+}
+.team .item {
+  position: relative;
+}
+.team .des {
+  background: #e9891e;
+  color: #fff;
+  text-align: center;
+  border-bottom-left-radius: 93%;
+  transition: 0.3s ease-in-out;
+}
+
+.team .item:hover .des {
+  height: 100%;
+  background: #f973007d;
+  position: absolute;
+  width: 89%;
+  padding: 5em;
+  top: 0;
+  border-bottom-left-radius: 0;
+}
+
+.contact-form {
+  margin: 6em 0;
+  position: relative;
+  background-color: rgba(192, 192, 192, 0.651);
+}
+.contact-form h1 {
+  padding: 2em 1px;
+  color: #e9891e;
+}
+.contact-form .right {
+  max-width: 600px;
+}
+.contact-form .right .btn-secondary {
+  background: #e9891e;
+  color: #fff;
+  border: 0;
+}
+.contact-form .right .form-control::placeholder {
+  color: #888;
+  font-size: 16px;
+}
+
+#MCW1:hover {
+  opacity: 0.7;
+}
+#RMR1:hover {
+  opacity: 0.7;
+}
+#vida:hover {
+  opacity: 0.7;
+}
+#gameLan:hover {
+  opacity: 0.7;
+}
+#vida:hover {
+  opacity: 0.7;
+}
+#car1:hover {
+  opacity: 0.7;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (Image) */
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  height: 80%;
+}
+
+/* Caption of Modal Image (Image Text) - Same Width as the Image */
+#caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+#caption1 {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+#caption2 {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+#caption3 {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+/* Add Animation - Zoom in the Modal */
+.modal-content,
+#caption1 {
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+.modal-content,
+#caption {
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+.modal-content,
+#caption2 {
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+.modal-content,
+#caption3 {
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@keyframes zoom {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+/* The Close Button */
+.close0 {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close0:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.close2 {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close2:hover,
+.close2:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.close3 {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close3:hover,
+.close3:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+.close4 {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close4:hover,
+.close4:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.close5 {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close5:hover,
+.close5:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px) {
+  .modal-content {
+    width: 100%;
+  }
+}
+
+#smallIcon {
+  height: 25%;
+  width: 25%;
+}
+#smallIcon2 {
+  height: 25%;
+  width: 25%;
+}
+
+#contact {
+  color: #10828c;
+}
+#contact-form {
+  padding-left: 40px;
+}
+
+#LK {
+  padding-left: 100px;
+}
+
+.hr {
+  border-width: 5px;
+}
+
+.button {
+  border-radius: 12px;
+  color: #0056b3;
+}
+
+.pro1 {
+  color: #e9891e;
+  margin: 2em;
+}
+
+.zoom {
+  transition: transform 0.2s; /* Animation */
+  margin: 0 auto;
+  position: relative;
+}
+
+.zoom:hover {
+  transform: scale(2);
+  z-index: 10;
+
+  overflow: hidden; /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}

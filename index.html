@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Site</title>
+    <meta charset="UTF-8" />
+
+    <link rel="stylesheet" type="text/css" href="main.css" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="description">
+          <h1>
+            Hello, welcome to my personal website!
+            <p>
+              This page is meant to give a short overview of myself as developer, the
+              projects i have been working on and my aquired skillset so far.
+            </p>
+            <!-- <button class="btn btn-outline-secondary btn-lg">See more</button> -->
+          </h1>
+        </div>
+      </div>
+    </header>
+
+    <nav class="navbar navbar-expand-lg fixed-top bg-dark">
+      <a class="navbar-brand" href="#">Home</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse " id="navbarSupportedContent">
+        <ul class="navbar-nav mr-4">
+          <li class="nav-item">
+            <a class="nav-link" data-value="about" href="#">About</a>
+          </li>
+          <!-- <li class="nav-item">
+            <a class="nav-link " data-value="lifeline" href="#">Lifeline</a>
+          </li> -->
+          <li class="nav-item">
+            <a class="nav-link " data-value="portfolio" href="#">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " data-value="team" href="#"> My skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " data-value="contact-form" href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="about" id="about">
+      <h1 class="text-center">About me</h1>
+      <div class="row">
+        <div class="col-lg-4 col-md-4 col-sm-12">
+          <img src="pics/img2.jpg" class="img-fluid" />
+          <!-- <span class="text-justify">Jonas Sandal</span> -->
+        </div>
+
+        <div class="col-lg-8 col-md-8 col-sm-12 desc">
+          <h3>Jonas Sandal</h3>
+          <p>
+            I am a Junior Java Developer born and raised in Germany and have
+            been living in Sweden for the past 8 years. Having a background in
+            social work I decided to follow an old passion for
+            working with computers and completed a 12-week Java-course at
+            Academy, a part of Academic Work in januari 2019. I work fullstack and really enjoy the
+            combination of writing clean code and being creative with UI/UX.
+          </p>
+        </div>
+      </div>
+    </div>
+
+
+      <!-- Posts section -->
+      <div class="portfolio" id="portfolio">
+        <div class="container">
+          <h1 class="text-center">Portfolio</h1>
+          <div class="row">
+            <div class="col-md-4 col-lg-4 col-sm-12 d-flex align-items-stretch">
+              <div class="card">
+                <div class="card-img">
+                  <img
+                    id="MCW1"
+                    src="pics/mcw5.JPG"
+                    alt="MurderClueWalk"
+                    class="img-fluid"
+                  />
+                  <div id="myModal" class="modal">
+                    <span class="close0">&times;</span>
+
+                    <img class="modal-content" id="img01" />
+
+                    <div id="caption"></div>
+                  </div>
+                </div>
+
+                <div class="card-body">
+                  <h4 class="card-title">MurderClueWalk</h4>
+                  <p class="card-text">
+                    A detective game built with the Spring MVC framework
+                  </p>
+                </div>
+
+                <div class="card-footer">
+                    <a href="project1.html" >Read more</a>
+                    <!-- <input type="button" class="button" name="answer" value="Read more" onclick="toggleDiv()" /> -->
+                  </div>
+
+
+              </div>
+            </div>
+            <div class="col-md-4 col-lg-4 col-sm-12 d-flex align-items-stretch">
+              <div class="card">
+                <div class="card-img">
+                  <img id= "RMR1" src="pics/RMR1.JPG" alt="RentMyRoom" class="img-fluid" />
+                  <div id="myModal2" class="modal" id="modal2">
+                    <span class="close2">&times;</span>
+
+                    <img class="modal-content" id="img02" />
+
+                    <div id="caption2"></div>
+                  </div>
+                </div>
+
+                <div class="card-body">
+                  <h4 class="card-title">RentMyRoom</h4>
+                  <p class="card-text">
+                    A project focused on creating user friendly forms with Angular
+                  </p>
+                </div>
+                <div class="card-footer">
+                    <a href="project2.html" >Read more</a>
+                    <!-- <input type="button" class="button" name="answer" value="Read more" onclick="toggleDiv()" /> -->
+                  </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-lg-4 col-sm-12 d-flex align-items-stretch">
+              <div class="card">
+                <div class="card-img">
+                  <img id="vida" src="pics/vidajoni.JPG" alt="Party-clothes" class="img-fluid" />
+                  <div id="myModal3" class="modal">
+                    <span class="close3">&times;</span>
+
+                    <img class="modal-content" id="img03" />
+
+                    <div id="caption3"></div>
+                  </div>
+                </div>
+
+                <div class="card-body">
+                  <h4 class="card-title">Party-clothes</h4>
+                  <p class="card-text">
+                    A webshop, created with Springboot. It uses MySQL as database
+                  </p>
+                </div>
+                <div class="card-footer">
+                  <a href="project3.html" >Read more</a>
+                  <!-- <input type="button" class="button" name="answer" value="Read more" onclick="toggleDiv()" /> -->
+                </div>
+              </div>
+            </div>
+
+
+
+
+
+            <div class="col-md-4 col-lg-4 col-sm-12 d-flex align-items-stretch">
+                <div class="card">
+                  <div class="card-img">
+                    <img
+                      id="car1"
+                      src="pics/CarRental.JPG"
+                      alt="CarRental"
+                      class="img-fluid"
+                    />
+                    <div id="myModal4" class="modal">
+                      <span class="close4">&times;</span>
+  
+                      <img class="modal-content" id="img04" />
+  
+                      <div id="caption4"></div>
+                    </div>
+                  </div>
+  
+                  <div class="card-body">
+                    <h4 class="card-title">Car rental</h4>
+                    <p class="card-text">
+                      A car rental website created with Spring boot
+                    </p>
+                  </div>
+  
+                  <div class="card-footer">
+                      <a href="project4.html" >Read more</a>
+                      <!-- <input type="button" class="button" name="answer" value="Read more" onclick="toggleDiv()" /> -->
+                    </div>
+  
+  
+                </div>
+              </div>
+
+
+
+
+              <div class="col-md-4 col-lg-4 col-sm-12 d-flex align-items-stretch">
+                  <div class="card">
+                    <div class="card-img">
+                      <img
+                        id="gameLan"
+                        src="pics/game1.JPG"
+                        alt="game"
+                        class="img-fluid"
+                      />
+                      <div id="myModal5" class="modal">
+                        <span class="close5">&times;</span>
+    
+                        <img class="modal-content" id="img05" />
+    
+                        <div id="caption5"></div>
+                      </div>
+                    </div>
+    
+                    <div class="card-body">
+                      <h4 class="card-title">Lanterna game</h4>
+                      <p class="card-text">
+                        A simple game making use of the Lanterna Java library
+                      </p>
+                    </div>
+    
+                    <div class="card-footer">
+                        <a href="project5.html" >Read more</a>
+                        <!-- <input type="button" class="button" name="answer" value="Read more" onclick="toggleDiv()" /> -->
+                      </div>
+    
+    
+                  </div>
+                </div>
+
+
+
+
+
+
+
+
+
+          </div>
+        </div>
+      </div>
+
+      <!-- Team section -->
+      <div class="team" id="team">
+        <div class="container">
+          <h1 class="text-center">My Skills</h1>
+          <div class="row">
+                 <div class="col-lg-3 col-md-3 col-sm-12 item">
+              <img src="pics/html2.png" class="img-fluid" alt="html" />
+              <div class="des">
+                HTML/CSS/Javascript
+              </div>
+              <span class="text-muted">Html</span>
+            </div> 
+            <div class="col-lg-3 col-md-3 col-sm-12 item">
+              <img src="pics/java.png" class="img-fluid" alt="java" />
+              <div class="des">
+                Java
+              </div>
+              <span class="text-muted">Java</span>
+            </div>
+                <div class="col-lg-3 col-md-3 col-sm-12 item">
+              <img src="pics/spring.png" class="img-fluid" alt="spring" />
+              <div class="des">
+                Spring
+              </div>
+              <span class="text-muted">Spring</span>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-12 item">
+              <img src="pics/angular.png" class="img-fluid" alt="angular" />
+              <div class="des">
+                Angular
+              </div>
+              <span class="text-muted">Angular</span>
+            </div>
+        
+      
+          </div>
+        </div>
+     
+
+
+<!-- Footer -->
+<footer class="page-footer font-small blue pt-4">
+
+        <!-- Footer Links -->
+        <div class="contact-form" id="contact-form" class="container-fluid text-center text-md-left">
+  <hr>  
+          <!-- Grid row -->
+          <div class="row">
+    
+            <!-- Grid column -->
+            <div class="col-md-6 mt-md-0 mt-3">
+    
+              <!-- Content -->
+              <h5 id="contact" class="text-uppercase">Contact:</h5>
+              <br>
+              <p>To send me a message or view my projects check out my LinkedIn and Github profile:</p>
+    <br>
+            </div>
+            <!-- Grid column -->
+    
+            <hr class="clearfix w-100 d-md-none pb-3">
+    
+            <!-- Grid column -->
+            <div id="LK" class="col-md-3 mb-md-0 mb-3">
+    <br>
+                <!-- Links -->
+                <h5 class="text-uppercase">LinkedIn</h5>
+    
+                
+                <a href="https://www.linkedin.com/in/jonas-sandal-86755a176"><img id="smallIcon" src="pics/LinkedIn.png" alt="LinkedIn"></a>
+    
+              </div>
+              <!-- Grid column -->
+    
+              <!-- Grid column -->
+              <div id="GH" class="col-md-3 mb-md-0 mb-3">
+    <br>
+                <!-- Links -->
+                <h5 class="text-uppercase">GitHub</h5>
+    
+                <a href="https://github.com/JonasSan"><img id="smallIcon2" src="pics/GitHub.png" alt="GitHub"></a>
+
+    
+              </div>
+              <!-- Grid column -->
+    
+          </div>
+          <!-- Grid row -->
+    
+        </div>
+        <!-- Footer Links -->
+    
+
+      </footer>
+      <!-- Footer -->
+
+      </div>
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"
+    ></script>
+    <script type="text/javascript" src="main.js"></script>
+  </body>
+</html>
+
+
+
+
+<!-- <div class="card-footer">
+    <input type="button" class="button" name="answer" value="Read more" onclick="toggleDiv()" />
+  </div>
+  <div id="myDIV"  style="display:none;" class="answer_list" > 
+    <p></p>
+      <img src="pics/noir2.JPG">
+  </div> -->

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Site</title>
+    <meta charset="UTF-8" />
+
+    <link rel="stylesheet" type="text/css" href="main.css" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body>
+    <header id="header2">
+      <div class="container">
+        <h1 class="pro1">Lanterna game</h1>
+        <div class="row"></div>
+
+<div class="lifeline" id="lifeline">
+      <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-12">
+                <h3>Description</h3>
+                <p>This group project was an exercise in writing code in Java. It is a mini-game, where the player has to navigate through a maze,
+                    avoid enemy contact and pick up all coins to win the game. </p> 
+                  <p>
+                    If the player comes too close to an enemy, it will try to intercept the player. Time-scores are saved in a textfile, so the highscore
+                    can be tracked over time. We used Lanterna which is a Java library that allows the user to write semi-graphical user interfaces 
+                </p>
+  
+              </div>
+          <div class="col-lg-4 col-md-4 col-sm-12">
+            <h3>Methods used</h3>
+            <ul>
+            
+<li>Lanterna Java library</li>
+<li>Java</li>
+
+            </ul>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-12">
+              <h3>UI/UX</h3>
+            <img src="pics/game2.JPG" class="img-fluid zoom" />
+            <p>Lanterna is used to create text-based terminal GUIs and is quite limited concerning the graphics. That is also why
+                the game is completely made with unicode characters. It has a retro feeling about it, reminding a bit of early games like pac-man
+               </p>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-12">
+            <h3>Functions</h3>
+            <img src="pics/game1.JPG" class="img-fluid zoom" />
+            <p>When the game starts, a timer also starts counting. For every move the player makes the enemies also move in a random direction.
+                  Only if the player comes to close, the enemy starts chasing the player. If the enemy touches the player the game is lost. To 
+                  reveal the finish-flag the player needs to collect all the coins in the maze. Once the player reaches the flag the game is won and the time is 
+                  added to the highscore board
+            </p>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-12">
+              <h3>Level-design</h3>
+              <img src="pics/game3.JPG" class="img-fluid zoom" />
+              <p>The level design is created in a simple .txt file and can easily be copied and modified to add new levels in the future</li>
+              </p>
+           
+          
+        </div>
+      </div>
+    </header>
+    <nav class="navbar navbar-expand-lg fixed-top bg-dark">
+      <a class="navbar-brand" href="index.html">Back</a>
+    </nav>
+  </body>
+</html>
